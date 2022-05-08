@@ -1,0 +1,230 @@
+@import 'utilities.css';
+:root{
+    --primary:rgba(0, 255, 55, 0.815);
+    --secondary:rgb(238, 20, 20);
+    --dark:rgba(0, 0, 0, 0.849);
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+}
+html {
+    scroll-behavior: smooth;
+  }
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+header{
+    background:rgba(39, 32, 38, 0.685);
+    clip-path:polygon(0 0,100% 0,95% 50%,100% 100%,0 100%)
+}
+header nav .left a{
+color:var(--pure);
+text-decoration: none;
+margin-right: 2rem;
+text-transform: uppercase;
+transition: all 0.3s ease;
+}
+header nav .left a:hover{
+    color:var(--primary);
+}
+header nav div.right a{
+   text-decoration: none;
+}
+header nav{
+padding:2rem 0;
+}
+header nav .branding{
+    margin-right:3rem;
+}
+
+.container{
+    max-width:1000px;
+    padding:0 15px;
+    margin:0 auto;
+}
+.container-1{
+    max-width:1400px;
+    padding:0 15px;
+    margin:0 auto;
+
+}
+
+  .hero{
+      padding:3rem 0;
+      margin:0 auto;
+  }
+.hero .left img{
+    
+    width:300px;
+    height:370px;
+   
+}
+.hero .right
+{
+    text-align: center;
+    color:var(--pure);
+    
+}
+
+.hero .right h6{
+    font-size:1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+.hero .right h1{
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+span{
+    color:var(--primary);
+}
+.hero .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+section.about{
+    margin:100px;
+    background: var(--dark);
+}
+section.about .container{
+   color: var(--light);
+    border: solid white 0.2rem;
+}
+section.about .about-us{
+    text-align: center;
+    color:var(--pure);
+    margin:0 auto;
+}
+section.about h1{
+    font-size:2.5rem;
+    font-weight: 100;
+}
+section.about h3{
+    font-size: 1.7rem;
+    font-weight:100;
+    line-height:1.5;
+} 
+section.about h3 span{
+    color:red;
+    font-weight: bold;
+}
+section.about div.about-us p a.address{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+   color: rgb(210, 30, 180);
+   font-weight: 100;
+}
+section.about p{
+    
+    color: aqua;
+   font-family: cursive;
+   font-size: 1.4rem;
+   font-variant: small-caps;
+   font-weight: 100;
+   line-height: 1.7;
+}
+section.about p a i{
+    color:red;
+
+}
+section.about p a i:hover{
+    transition: all 0.5s;
+    transition-timing-function:cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  color: aqua;
+}
+
+section.about img{
+   margin:0 auto ;
+    width:250px;
+   height:299px;
+   
+}
+section.about .container-1{
+    border-style: dotted;
+    border-color: rgb(28, 109, 175);
+    border-radius: 20px;
+    
+}
+
+section.about div.link i{
+    padding:12px;
+    border-radius: 10px;
+    border: 2px solid red;
+  margin-left: 30px;
+     color:red;
+}
+section.about div.link i:hover{
+    color:green;
+    border-color: var(--primary);
+    transition: all 0.3s ease-in-out;
+}
+section.skill{
+    margin:200px;
+    height: 300px;
+border-radius: 20px;
+    background-image:url("portfolio3.jpg");
+  
+    color: blue;
+
+}
+section.skill h1{
+    color: yellow;
+    text-align: center;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+section.skill div.skill-info img{
+     padding:auto auto;
+    height: 120px;
+    width: 150px;
+}
+section.hobbies{
+    margin:100px;
+}
+section.hobbies h1{
+    font-size: 3.5rem;
+    padding-bottom: 50px;
+    color: rgba(105, 2, 97, 0.829);
+    text-align: center;
+    text-decoration: wavy;
+}
+section.hobbies img{
+    margin:0 auto;
+}
+footer{
+    padding-top: 100px;
+    padding-bottom: 30px    ;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: purple;
+}
+footer h1{
+    padding-bottom: 50px;
+}
+footer.contact div.link{
+    padding-bottom: 30px;
+}
+footer.contact div.link i{
+    padding:12px;
+    
+    border-radius: 10px;
+    border: 2px solid rgba(255, 0, 0, 0.637);
+  margin-left: 30px;
+     color:rgb(255, 174, 0);
+}
+footer.contact div.link i:hover{
+    color:rgb(228, 216, 49);
+    border-color: seagreen;
+    transition: all 0.3s ease-in-out;
+}
+footer h3{
+    padding-top:50px;
+    padding-bottom: 40px;
+}
