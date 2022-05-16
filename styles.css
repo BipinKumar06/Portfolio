@@ -251,10 +251,14 @@ section.about p a i:hover{
        margin: auto;
    }
   section.about{
-      
-    padding:0 auto;
+      padding:0 auto;
       width:100vh;
       margin:auto;
+      margin-top: 10px;
+  }
+  section.about .container-1{
+      display: block;
+      width:80%;
   }
   section.about img{
   display: block;
@@ -267,10 +271,14 @@ section.about p a i:hover{
     padding:0 auto;
       width:100vh;
       margin:auto;
+      margin-top: 10px;
   }
   section.skill .skill-info{
     display: block;
+    width:80%;
+    margin:auto;
   }
+ 
   section.hobbies{
     justify-content: center;
       width:100vh;
@@ -281,8 +289,34 @@ section.about p a i:hover{
     margin-right: auto;
     width: 10em;
   }
+  section.hobbies .hobbies-info{
+    display: block;
+    width:80%;
+    margin:auto;
+  }
   footer{
   width: 100vh;
   margin:auto;
+  }
+  }
+  @media only screen and (min-width: 1000px) {
+    
+   header{
+    
+       width:100%;
+    }
+  section.about{
+  width:100%;
+      margin-top: 20px;
+  }
+  section.skill{
+      width:100%;
+  }
+  section.hobbies{
+      width:100%;
+  }
+ 
+  footer{
+  width: 100%;
   }
   }
